@@ -1,0 +1,50 @@
+.k-grid {
+  background-color: rgb(171, 214, 227) !important;
+}
+
+.k-edit-form-container {
+  width: 500px;
+  background-color: rgb(255, 250, 254) !important;
+}
+
+.k-pager-wrap .k-link.k-state-selected {
+  background-color: #f3cb00;
+}
+
+.k-popup-edit-form .k-edit-label {
+  width: 20%;
+  text-align: left;
+}
+
+.k-popup-edit-form .k-edit-field {
+  width: 70%;
+}
+
+.k-popup-edit-form .k-edit-field > .k-textbox,
+.k-popup-edit-form .k-edit-field > .k-widget:not(.k-tooltip) {
+  width: 98%;
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 767px) {
+  .k-grid {
+    font-size: 12px;
+  }
+  .k-grid th,
+  .k-grid td {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  .k-edit-form-container {
+    width: 100%;
+  }
+  .k-popup-edit-form .k-edit-label {
+    width: 40%;
+  }
+  .k-popup-edit-form .k-edit-field {
+    width: 60%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
